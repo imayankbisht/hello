@@ -1,0 +1,28 @@
+.list__grid {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.list__grid h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-bottom: 3px solid red;
+}
+
+.list li {
+  list-style: none;
+  padding: 5px;
+  color: purple;
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+}
+
+.list__btn {
+  border: none;
+  margin-top: 20px;
+  background: #61acb3;
+  outline: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}

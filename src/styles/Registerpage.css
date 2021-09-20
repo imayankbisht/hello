@@ -1,0 +1,61 @@
+.registerpage {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.register__img {
+  width: 100%;
+}
+
+.register__grid2 {
+  text-align: center;
+  margin: auto 0;
+  padding: 100px;
+}
+
+.register__grid2 p {
+  padding-top: 5px;
+  font-size: 0.8rem;
+}
+
+.register__input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+
+.register__input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px 5px;
+}
+
+.register__checkbox {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding-top: 40px;
+}
+
+.register__checkbox a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  width: 100%;
+  background: #61acb3;
+  margin-top: 50px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.tnc {
+  margin-top: 100px;
+  font-size: 0.8rem;
+}
